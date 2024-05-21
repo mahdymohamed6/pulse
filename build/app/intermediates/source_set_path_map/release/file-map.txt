@@ -1,0 +1,26 @@
+com.example.investify.app-savedstate-1.2.1-0 C:\Users\laphouse\.gradle\caches\transforms-3\23ead9d949dbf1e64f31eea5bca68f85\transformed\savedstate-1.2.1\res
+com.example.investify.app-core-runtime-2.2.0-1 C:\Users\laphouse\.gradle\caches\transforms-3\433098faae6c15ec0aeb1ebf91f56a13\transformed\core-runtime-2.2.0\res
+com.example.investify.app-startup-runtime-1.1.1-2 C:\Users\laphouse\.gradle\caches\transforms-3\5cfa68fbf35be25fbb23210de41579ac\transformed\startup-runtime-1.1.1\res
+com.example.investify.app-core-ktx-1.10.1-3 C:\Users\laphouse\.gradle\caches\transforms-3\6e3f47981845066952bcbd228e873312\transformed\core-ktx-1.10.1\res
+com.example.investify.app-annotation-experimental-1.3.0-4 C:\Users\laphouse\.gradle\caches\transforms-3\6fd72b5ad5e37a176764e9b08c8805d1\transformed\annotation-experimental-1.3.0\res
+com.example.investify.app-profileinstaller-1.3.0-5 C:\Users\laphouse\.gradle\caches\transforms-3\84f99f131ff4e83e55a566e9712bb277\transformed\profileinstaller-1.3.0\res
+com.example.investify.app-core-1.10.1-6 C:\Users\laphouse\.gradle\caches\transforms-3\9d3066008a90d3a18f6e3f60994af8fa\transformed\core-1.10.1\res
+com.example.investify.app-lifecycle-runtime-2.6.1-7 C:\Users\laphouse\.gradle\caches\transforms-3\aca0e6ffceb3e61095fa4b3ab70ca53d\transformed\lifecycle-runtime-2.6.1\res
+com.example.investify.app-window-java-1.0.0-beta04-8 C:\Users\laphouse\.gradle\caches\transforms-3\b5a5a16971296016f1c39b42b9131848\transformed\window-java-1.0.0-beta04\res
+com.example.investify.app-activity-1.7.2-9 C:\Users\laphouse\.gradle\caches\transforms-3\c096e7960e6e54b26b5e940f10c60c8c\transformed\activity-1.7.2\res
+com.example.investify.app-lifecycle-livedata-2.6.1-10 C:\Users\laphouse\.gradle\caches\transforms-3\ca15007ceebcb49c03c3edd57abccd25\transformed\lifecycle-livedata-2.6.1\res
+com.example.investify.app-lifecycle-viewmodel-savedstate-2.6.1-11 C:\Users\laphouse\.gradle\caches\transforms-3\cc3c2354c39a40fdfa52f1fc87e41843\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.investify.app-window-1.0.0-beta04-12 C:\Users\laphouse\.gradle\caches\transforms-3\de81b9a58998689576d9137c08297092\transformed\window-1.0.0-beta04\res
+com.example.investify.app-lifecycle-livedata-core-2.6.1-13 C:\Users\laphouse\.gradle\caches\transforms-3\f2077fb7f7abfaf02b8c446bcb63773d\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.investify.app-lifecycle-viewmodel-2.6.1-14 C:\Users\laphouse\.gradle\caches\transforms-3\fa84fb063ccd0d43db153436d263d6f5\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.investify.app-main-15 D:\New folder\investify - Copy\android\app\src\main\res
+com.example.investify.app-release-16 D:\New folder\investify - Copy\android\app\src\release\res
+com.example.investify.app-pngs-17 D:\New folder\investify - Copy\build\app\generated\res\pngs\release
+com.example.investify.app-resValues-18 D:\New folder\investify - Copy\build\app\generated\res\resValues\release
+com.example.investify.app-rs-19 D:\New folder\investify - Copy\build\app\generated\res\rs\release
+com.example.investify.app-mergeReleaseResources-20 D:\New folder\investify - Copy\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.investify.app-mergeReleaseResources-21 D:\New folder\investify - Copy\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.investify.app-merged_res-22 D:\New folder\investify - Copy\build\app\intermediates\merged_res\release
+com.example.investify.app-packaged_res-23 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+com.example.investify.app-packaged_res-24 D:\New folder\investify - Copy\build\image_picker_android\intermediates\packaged_res\release
+com.example.investify.app-packaged_res-25 D:\New folder\investify - Copy\build\path_provider_android\intermediates\packaged_res\release

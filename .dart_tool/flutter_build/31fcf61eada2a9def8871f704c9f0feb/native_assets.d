@@ -1,0 +1,1 @@
+ D:\\New\ folder\\investify\ -\ Copy\\.dart_tool\\flutter_build\\31fcf61eada2a9def8871f704c9f0feb\\native_assets.yaml: 

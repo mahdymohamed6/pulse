@@ -1,0 +1,12 @@
+io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-0 C:\Users\laphouse\.gradle\caches\transforms-3\87955219ada9e4e421baba4d189bfc74\transformed\core-1.6.0\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-window-java-1.0.0-beta04-1 C:\Users\laphouse\.gradle\caches\transforms-3\b5a5a16971296016f1c39b42b9131848\transformed\window-java-1.0.0-beta04\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-annotation-experimental-1.1.0-2 C:\Users\laphouse\.gradle\caches\transforms-3\db08e4d165d7dcc9e37435d7e9fd08b0\transformed\annotation-experimental-1.1.0\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-window-1.0.0-beta04-3 C:\Users\laphouse\.gradle\caches\transforms-3\de81b9a58998689576d9137c08297092\transformed\window-1.0.0-beta04\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 C:\Users\laphouse\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\main\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 C:\Users\laphouse\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\release\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\generated\res\rs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release
