@@ -59,7 +59,7 @@ class ProjectServices {
     required String description,
     required int price,
     required File image,
-    required File video,
+    // required File video,
   }) async {
     String token = GetStorage().read('token');
     String url = 'https://investpulse.onrender.com/projects/';
@@ -83,13 +83,13 @@ class ProjectServices {
       filename: 'image.jpg',
       contentType: MediaType('image', 'jpg'),
     ));
-    request.files.add(http.MultipartFile(
-      'video',
-      video.readAsBytes().asStream(),
-      video.lengthSync(),
-      filename: 'video.mp4',
-      contentType: MediaType('video', 'mp4'),
-    ));
+    // request.files.add(http.MultipartFile(
+    //   'video',
+    //   video.readAsBytes().asStream(),
+    //   video.lengthSync(),
+    //   filename: 'video.mp4',
+    //   contentType: MediaType('video', 'mp4'),
+    // ));
 
     // Add the other fields
     request.fields['title'] = title;

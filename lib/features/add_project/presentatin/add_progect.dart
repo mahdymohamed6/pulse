@@ -162,50 +162,50 @@ class _AddProgectViewState extends State<AddProgectView> {
                     const SizedBox(
                       height: 20,
                     ),
-                    Row(
-                      children: [
-                        const Text(
-                          'Add Video ',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 28,
-                              fontFamily: 'dongel'),
-                        ),
-                        const SizedBox(
-                          width: 7.5,
-                        ),
-                        Container(
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            border: Border.all(),
-                            borderRadius: BorderRadius.circular(8),
-                            color: Colors.white,
-                          ),
-                          child: Center(
-                            child: InkWell(
-                              onTap: () {
-                                pickVideoFromGallery();
-                              },
-                              child: const Icon(
-                                Icons.add,
-                                color: Colors.black,
-                              ),
-                            ),
-                          ),
-                        ),
-                        video != null
-                            ? const Padding(
-                                padding: const EdgeInsets.only(left: 8),
-                                child: SizedBox(
-                                  height: 40,
-                                  width: 72,
-                                  child: Text('succeeded'),
-                                ),
-                              )
-                            : const Text('')
-                      ],
-                    ),
+                    // Row(
+                    //   children: [
+                    //     const Text(
+                    //       'Add Video ',
+                    //       style: TextStyle(
+                    //           color: Colors.white,
+                    //           fontSize: 28,
+                    //           fontFamily: 'dongel'),
+                    //     ),
+                    //     const SizedBox(
+                    //       width: 7.5,
+                    //     ),
+                    //     Container(
+                    //       height: 40,
+                    //       width: 40,
+                    //       decoration: BoxDecoration(
+                    //         border: Border.all(),
+                    //         borderRadius: BorderRadius.circular(8),
+                    //         color: Colors.white,
+                    //       ),
+                    //       child: Center(
+                    //         child: InkWell(
+                    //           onTap: () {
+                    //             pickVideoFromGallery();
+                    //           },
+                    //           child: const Icon(
+                    //             Icons.add,
+                    //             color: Colors.black,
+                    //           ),
+                    //         ),
+                    //       ),
+                    //     ),
+                    //     video != null
+                    //         ? const Padding(
+                    //             padding: const EdgeInsets.only(left: 8),
+                    //             child: SizedBox(
+                    //               height: 40,
+                    //               width: 72,
+                    //               child: Text('succeeded'),
+                    //             ),
+                    //           )
+                    //         : const Text('')
+                    //   ],
+                    // ),
                     const SizedBox(
                       height: 70,
                     ),
@@ -234,7 +234,7 @@ class _AddProgectViewState extends State<AddProgectView> {
                               return;
                             }
 
-                            if (image == null || video == null) {
+                            if (image == null) {
                               // Handle the case when either image or video is not selected
                               showSnackbar(
                                   'Please select both image and video');
@@ -251,7 +251,6 @@ class _AddProgectViewState extends State<AddProgectView> {
                                 description: descriptionController.text,
                                 price: price,
                                 image: File(image!.path),
-                                video: File(video!.path),
                               )
                                   .then((success) {
                                 if (success) {

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:investify/features/user_home/data/entities/user_entity.dart';
 import 'package:investify/features/user_home/data/models/project_model.dart';
 import 'package:investify/features/user_home/data/services/get_user.dart';
+import 'package:investify/features/user_home/presentaion/schedule_view.dart';
 import 'package:investify/features/user_home/presentaion/widget/invest_buttom.dart';
 import 'package:investify/features/user_home/presentaion/widget/owner_info.dart';
 import 'package:investify/features/user_home/presentaion/widget/project_description.dart';
 import 'package:investify/features/user_home/presentaion/widget/project_image_info.dart';
-import 'package:investify/features/user_home/presentaion/widget/video_widget.dart';
 
 class ProgectInfoView extends StatefulWidget {
   const ProgectInfoView(
@@ -67,7 +67,7 @@ class _ProgectInfoViewState extends State<ProgectInfoView> {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: OwnerInfo(
-                userEntity: userEntity,
+                userEntity: widget.userEntity,
               ),
             ),
             const SizedBox(
@@ -83,18 +83,37 @@ class _ProgectInfoViewState extends State<ProgectInfoView> {
               ),
             ),
             const SizedBox(
-              height: 26,
+              height: 111,
             ),
             InvestButtom(
               progectModel: widget.projectModel,
               userEntity: widget.userEntity,
             ),
             const SizedBox(
-              height: 28,
+              height: 15,
             ),
-            VideoWidget(
-              progectModel: widget.projectModel,
-            )
+
+            Padding(
+              padding: const EdgeInsets.only(left: 14, top: 12, bottom: 30),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SchedulerView()),
+                  );
+                },
+                child: const Text(
+                  'Schedule a call',
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Color(0XFF00C35A),
+                  ),
+                ),
+              ),
+            ),
+            // VideoWidget(
+            //   progectModel: widget.projectModel,
+            // )
           ],
         ),
       ),
