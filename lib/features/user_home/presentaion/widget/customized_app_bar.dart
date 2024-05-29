@@ -4,7 +4,7 @@ import 'package:investify/features/user_home/data/services/progects_services.dar
 PreferredSizeWidget customAppBar() {
   return AppBar(
     title: const Text(
-      'PULES',
+      'PULSE',
       style: TextStyle(fontFamily: 'dangrek', color: Color(0XFF0F744F)),
     ),
     scrolledUnderElevation: 0,

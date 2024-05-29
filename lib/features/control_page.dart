@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:investify/features/add_project/presentatin/add_progect.dart';
+import 'package:investify/features/add_project/presentatin/add_project.dart';
 import 'package:investify/features/payment/persentaion/payment_view.dart';
 import 'package:investify/features/profile/presentation/profile_view.dart';
 import 'package:investify/features/user_home/presentaion/user_home.dart';

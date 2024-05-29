@@ -55,9 +55,10 @@ class _UserHomeState extends State<UserHome> {
                   Text(
                     "Welcome, ${userEntity.userName!}",
                     style: const TextStyle(
-                        color: Colors.black,
-                        fontSize: 28,
-                        fontFamily: 'dongel'),
+                      color: Colors.black,
+                      fontSize: 28,
+                      fontFamily: 'dongel',
+                    ),
                   ),
                   const SizedBox(
                     height: 20,
@@ -74,19 +75,32 @@ class _UserHomeState extends State<UserHome> {
                 height: 18,
               ),
               Expanded(
-                child: ListView.builder(
-                  itemCount: progectsList.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    return Padding(
-                      padding: const EdgeInsets.only(
-                          left: 22, right: 22, bottom: 16),
-                      child: ProjectListViewItem(
-                        projectModel: progectsList[index],
-                        userEntity: userEntity,
+                child: progectsList.isEmpty
+                    ? Center(
+                        child: Text(
+                          'No projects found',
+                          style: TextStyle(
+                            color: Colors.grey[600],
+                            fontSize: 18,
+                          ),
+                        ),
+                      )
+                    : ListView.builder(
+                        itemCount: progectsList.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          return Padding(
+                            padding: const EdgeInsets.only(
+                              left: 22,
+                              right: 22,
+                              bottom: 16,
+                            ),
+                            child: ProjectListViewItem(
+                              projectModel: progectsList[index],
+                              userEntity: userEntity,
+                            ),
+                          );
+                        },
                       ),
-                    );
-                  },
-                ),
               ),
             ],
           ),

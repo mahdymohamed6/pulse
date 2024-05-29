@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:investify/features/control_page.dart';
 import 'package:investify/features/regester/data/auth_services.dart';
+import 'package:investify/features/regester/presentaion/register_view.dart';
 import 'package:investify/features/regester/role_view.dart';
 
 class LoginView extends StatefulWidget {
@@ -203,7 +204,8 @@ class _LoginViewState extends State<LoginView> {
                   onTap: () {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => const RoleView()),
+                      MaterialPageRoute(
+                          builder: (context) => const RegisterView()),
                     );
                   },
                   child: const Text(

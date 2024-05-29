@@ -174,7 +174,16 @@ int string call_notification_hang_up_action 0x7f090004
 int string call_notification_incoming_text 0x7f090005
 int string call_notification_ongoing_text 0x7f090006
 int string call_notification_screening_text 0x7f090007
-int string status_bar_notification_info_overflow 0x7f090008
+int string exo_download_completed 0x7f090008
+int string exo_download_description 0x7f090009
+int string exo_download_downloading 0x7f09000a
+int string exo_download_failed 0x7f09000b
+int string exo_download_notification_channel_name 0x7f09000c
+int string exo_download_paused 0x7f09000d
+int string exo_download_paused_for_network 0x7f09000e
+int string exo_download_paused_for_wifi 0x7f09000f
+int string exo_download_removing 0x7f090010
+int string status_bar_notification_info_overflow 0x7f090011
 int style LaunchTheme 0x7f0a0000
 int style NormalTheme 0x7f0a0001
 int style TextAppearance_Compat_Notification 0x7f0a0002

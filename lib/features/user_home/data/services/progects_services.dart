@@ -33,7 +33,7 @@ class ProjectsServices2 {
     return projectsList;
   }
 
-  Future<List<ProjectModel>> getUserProjects({required String id}) async {
+  Future<List<ProjectModel>> getUserProjectsById({required String id}) async {
     String url = 'https://investpulse.onrender.com/projects/$id';
     final response = await http.get(
       Uri.parse(url),

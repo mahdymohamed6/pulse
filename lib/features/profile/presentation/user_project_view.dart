@@ -33,7 +33,7 @@ class _UserProgectViewState extends State<UserProgectView> {
   }
 
   Future<void> getAllProgects() async {
-    progectsList = await ProjectsServices2().getUserProjects(id: id);
+    progectsList = await ProjectsServices2().getUserProjectsById(id: id);
     setState(() {});
   }
 

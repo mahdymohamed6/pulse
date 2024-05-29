@@ -11,16 +11,18 @@ com.example.investify.app-activity-1.7.2-9 C:\Users\laphouse\.gradle\caches\tran
 com.example.investify.app-lifecycle-livedata-2.6.1-10 C:\Users\laphouse\.gradle\caches\transforms-3\ca15007ceebcb49c03c3edd57abccd25\transformed\lifecycle-livedata-2.6.1\res
 com.example.investify.app-lifecycle-viewmodel-savedstate-2.6.1-11 C:\Users\laphouse\.gradle\caches\transforms-3\cc3c2354c39a40fdfa52f1fc87e41843\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
 com.example.investify.app-window-1.0.0-beta04-12 C:\Users\laphouse\.gradle\caches\transforms-3\de81b9a58998689576d9137c08297092\transformed\window-1.0.0-beta04\res
-com.example.investify.app-lifecycle-livedata-core-2.6.1-13 C:\Users\laphouse\.gradle\caches\transforms-3\f2077fb7f7abfaf02b8c446bcb63773d\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.investify.app-lifecycle-viewmodel-2.6.1-14 C:\Users\laphouse\.gradle\caches\transforms-3\fa84fb063ccd0d43db153436d263d6f5\transformed\lifecycle-viewmodel-2.6.1\res
-com.example.investify.app-debug-15 D:\New folder\investify - Copy\android\app\src\debug\res
-com.example.investify.app-main-16 D:\New folder\investify - Copy\android\app\src\main\res
-com.example.investify.app-pngs-17 D:\New folder\investify - Copy\build\app\generated\res\pngs\debug
-com.example.investify.app-resValues-18 D:\New folder\investify - Copy\build\app\generated\res\resValues\debug
-com.example.investify.app-rs-19 D:\New folder\investify - Copy\build\app\generated\res\rs\debug
-com.example.investify.app-mergeDebugResources-20 D:\New folder\investify - Copy\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.investify.app-mergeDebugResources-21 D:\New folder\investify - Copy\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.investify.app-merged_res-22 D:\New folder\investify - Copy\build\app\intermediates\merged_res\debug
-com.example.investify.app-packaged_res-23 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
-com.example.investify.app-packaged_res-24 D:\New folder\investify - Copy\build\image_picker_android\intermediates\packaged_res\debug
-com.example.investify.app-packaged_res-25 D:\New folder\investify - Copy\build\path_provider_android\intermediates\packaged_res\debug
+com.example.investify.app-exoplayer-core-2.18.7-13 C:\Users\laphouse\.gradle\caches\transforms-3\e9c2bdf31d577af0a7d678b31b21396c\transformed\exoplayer-core-2.18.7\res
+com.example.investify.app-lifecycle-livedata-core-2.6.1-14 C:\Users\laphouse\.gradle\caches\transforms-3\f2077fb7f7abfaf02b8c446bcb63773d\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.investify.app-lifecycle-viewmodel-2.6.1-15 C:\Users\laphouse\.gradle\caches\transforms-3\fa84fb063ccd0d43db153436d263d6f5\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.investify.app-debug-16 D:\New folder\investify - Copy\android\app\src\debug\res
+com.example.investify.app-main-17 D:\New folder\investify - Copy\android\app\src\main\res
+com.example.investify.app-pngs-18 D:\New folder\investify - Copy\build\app\generated\res\pngs\debug
+com.example.investify.app-resValues-19 D:\New folder\investify - Copy\build\app\generated\res\resValues\debug
+com.example.investify.app-rs-20 D:\New folder\investify - Copy\build\app\generated\res\rs\debug
+com.example.investify.app-mergeDebugResources-21 D:\New folder\investify - Copy\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.investify.app-mergeDebugResources-22 D:\New folder\investify - Copy\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.investify.app-merged_res-23 D:\New folder\investify - Copy\build\app\intermediates\merged_res\debug
+com.example.investify.app-packaged_res-24 D:\New folder\investify - Copy\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.investify.app-packaged_res-25 D:\New folder\investify - Copy\build\image_picker_android\intermediates\packaged_res\debug
+com.example.investify.app-packaged_res-26 D:\New folder\investify - Copy\build\path_provider_android\intermediates\packaged_res\debug
+com.example.investify.app-packaged_res-27 D:\New folder\investify - Copy\build\video_player_android\intermediates\packaged_res\debug
