@@ -1,0 +1,14 @@
+io.flutter.plugins.videoplayer.video_player_android-core-1.7.0-0 C:\Users\laphouse\.gradle\caches\transforms-3\3290ba395562eeee4ac1ec2ec616c611\transformed\core-1.7.0\res
+io.flutter.plugins.videoplayer.video_player_android-lifecycle-runtime-2.3.1-1 C:\Users\laphouse\.gradle\caches\transforms-3\90adcf94d9e204827a4772b2cadea454\transformed\lifecycle-runtime-2.3.1\res
+io.flutter.plugins.videoplayer.video_player_android-window-java-1.0.0-beta04-2 C:\Users\laphouse\.gradle\caches\transforms-3\b5a5a16971296016f1c39b42b9131848\transformed\window-java-1.0.0-beta04\res
+io.flutter.plugins.videoplayer.video_player_android-annotation-experimental-1.1.0-3 C:\Users\laphouse\.gradle\caches\transforms-3\db08e4d165d7dcc9e37435d7e9fd08b0\transformed\annotation-experimental-1.1.0\res
+io.flutter.plugins.videoplayer.video_player_android-window-1.0.0-beta04-4 C:\Users\laphouse\.gradle\caches\transforms-3\de81b9a58998689576d9137c08297092\transformed\window-1.0.0-beta04\res
+io.flutter.plugins.videoplayer.video_player_android-exoplayer-core-2.18.7-5 C:\Users\laphouse\.gradle\caches\transforms-3\e9c2bdf31d577af0a7d678b31b21396c\transformed\exoplayer-core-2.18.7\res
+io.flutter.plugins.videoplayer.video_player_android-main-6 C:\Users\laphouse\AppData\Local\Pub\Cache\hosted\pub.dev\video_player_android-2.4.14\android\src\main\res
+io.flutter.plugins.videoplayer.video_player_android-release-7 C:\Users\laphouse\AppData\Local\Pub\Cache\hosted\pub.dev\video_player_android-2.4.14\android\src\release\res
+io.flutter.plugins.videoplayer.video_player_android-pngs-8 D:\New folder\investify - Copy\build\video_player_android\generated\res\pngs\release
+io.flutter.plugins.videoplayer.video_player_android-resValues-9 D:\New folder\investify - Copy\build\video_player_android\generated\res\resValues\release
+io.flutter.plugins.videoplayer.video_player_android-rs-10 D:\New folder\investify - Copy\build\video_player_android\generated\res\rs\release
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-11 D:\New folder\investify - Copy\build\video_player_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-12 D:\New folder\investify - Copy\build\video_player_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.videoplayer.video_player_android-merged_res-13 D:\New folder\investify - Copy\build\video_player_android\intermediates\merged_res\release

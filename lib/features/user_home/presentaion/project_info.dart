@@ -68,6 +68,7 @@ class _ProgectInfoViewState extends State<ProgectInfoView> {
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: OwnerInfo(
                 userEntity: widget.userEntity,
+                projectModel: widget.projectModel,
               ),
             ),
             const SizedBox(

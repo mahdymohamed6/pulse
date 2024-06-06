@@ -49,7 +49,7 @@ class _UserProgectListViewItemState extends State<UserProgectListViewItem> {
                 fontSize: 16,
                 fontFamily: 'dongel',
               ),
-              maxLines: 4,
+              maxLines: 3,
               overflow: TextOverflow.ellipsis,
             ),
             const SizedBox(

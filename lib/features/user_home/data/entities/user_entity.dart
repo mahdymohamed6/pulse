@@ -2,7 +2,7 @@ class UserEntity {
   final String? userName;
   final String? email;
   final String? phone;
-  final int? coins;
+  final num? coins;
 
   UserEntity(
       {required this.userName,

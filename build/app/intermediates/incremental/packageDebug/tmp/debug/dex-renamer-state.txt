@@ -1,4 +1,4 @@
-#Wed May 29 19:26:07 EET 2024
+#Thu Jun 06 22:55:51 EET 2024
 base.1=D\:\\New folder\\investify - Copy\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 path.1=classes2.dex
 base.0=D\:\\New folder\\investify - Copy\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex

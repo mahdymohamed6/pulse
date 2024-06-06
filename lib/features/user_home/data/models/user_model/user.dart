@@ -7,12 +7,12 @@ class User extends UserEntity {
   String? password;
   String? role;
   String? phone;
-  int? coins;
+  num? coins;
   List<dynamic>? projects;
   List<dynamic>? likes;
   DateTime? createdAt;
   DateTime? updatedAt;
-  int? v;
+  num? v;
 
   User({
     this.id,
@@ -36,7 +36,7 @@ class User extends UserEntity {
         password: json['password'] as String?,
         role: json['role'] as String?,
         phone: json['phone'] as String?,
-        coins: json['coins'] as int?,
+        coins: json['coins'] as num?,
         projects: json['projects'] as List<dynamic>?,
         likes: json['likes'] as List<dynamic>?,
         createdAt: json['createdAt'] == null

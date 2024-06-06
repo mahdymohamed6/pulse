@@ -3,7 +3,6 @@ import 'package:flutter/widgets.dart';
 import 'package:investify/features/control_page.dart';
 import 'package:investify/features/regester/data/auth_services.dart';
 import 'package:investify/features/regester/presentaion/register_view.dart';
-import 'package:investify/features/regester/role_view.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});

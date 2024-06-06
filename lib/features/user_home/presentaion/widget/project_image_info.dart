@@ -26,7 +26,7 @@ class ProjectImageInfo extends StatelessWidget {
           child: FittedBox(
             fit: BoxFit.cover,
             child: Image.network(
-              'https://investpulse.onrender.com/${progectModel.image!}',
+              progectModel.image!,
               width: 200,
               height: 200,
               fit: BoxFit.cover,

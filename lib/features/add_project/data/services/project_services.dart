@@ -77,7 +77,7 @@ class ProjectServices {
     //   return;
     // }
     request.files.add(http.MultipartFile(
-      'image',
+      'media',
       image.readAsBytes().asStream(),
       image.lengthSync(),
       filename: 'image.jpg',
