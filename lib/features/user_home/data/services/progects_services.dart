@@ -26,7 +26,7 @@ class ProjectsServices2 {
         ProjectModel projectModel = ProjectModel.fromJson(project);
         projectsList.add(projectModel);
       }
-      // print(projectsList);
+      print(projects);
     } else {
       print(response.statusCode);
     }
@@ -51,7 +51,7 @@ class ProjectsServices2 {
         ProjectModel projectModel = ProjectModel.fromJson(project);
         projectsList.add(projectModel);
       }
-      print(projectsList);
+      // print(projectsList);
     } else {
       print(response.statusCode);
     }
@@ -75,7 +75,7 @@ class ProjectsServices2 {
     }
   }
 
-  Future<void> investProgect(
+  Future<bool> investProgect(
       {required String progectId, required int percentage}) async {
     String url = 'https://investpulse.onrender.com/projects/like';
     final response = await http.post(Uri.parse(url),
@@ -87,12 +87,14 @@ class ProjectsServices2 {
           'projectId': progectId,
           'percentage': percentage,
         }));
-    print(progectId);
-    print(percentage);
+    // print(progectId);
+    // print(percentage);
     if (response.statusCode == 200) {
       print(response.body);
+      return true;
     } else {
-      print(response.statusCode);
+      print(response.body);
+      return false;
     }
   }
 }

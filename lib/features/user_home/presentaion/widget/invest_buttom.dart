@@ -30,7 +30,6 @@ class InvestButtom extends StatelessWidget {
                   MaterialPageRoute(
                       builder: (context) => InvestView(
                             progectModel: progectModel,
-                            userEntity: userEntity,
                           )),
                 );
               },

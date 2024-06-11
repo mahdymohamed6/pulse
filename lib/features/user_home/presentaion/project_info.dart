@@ -19,7 +19,7 @@ class ProgectInfoView extends StatefulWidget {
 
 // late VideoPlayerController videoPlayerController;
 
-UserEntity userEntity =
+UserEntity userEntityOwner =
     UserEntity(userName: '', email: '', phone: '', coins: 0);
 
 class _ProgectInfoViewState extends State<ProgectInfoView> {
@@ -29,7 +29,7 @@ class _ProgectInfoViewState extends State<ProgectInfoView> {
   }
 
   Future<void> getUser() async {
-    userEntity =
+    userEntityOwner =
         await UserServices().getUserInfo(id: widget.projectModel.author!);
   }
 
@@ -75,7 +75,16 @@ class _ProgectInfoViewState extends State<ProgectInfoView> {
               height: 32,
             ),
             Text(
-              'Price : ${widget.projectModel.price.toString()}',
+              'Price :      ${widget.projectModel.price.toString()} coins',
+              style: const TextStyle(
+                fontSize: 18,
+                fontFamily: 'dongel',
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              'available : ${widget.projectModel.available.toString()}%',
               style: const TextStyle(
                 fontSize: 18,
                 fontFamily: 'dongel',
